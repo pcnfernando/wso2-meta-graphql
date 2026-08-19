@@ -1,4 +1,5 @@
 import ballerina/graphql;
+import ballerina/http;
 
 # A service representing a network-accessible GraphQL API
 service / on new graphql:Listener(8090) {
@@ -25,5 +26,20 @@ service / on new graphql:Listener(8090) {
             return error("name should not be empty!");
         }
         return "User created with name: " + name;
+    }
+}
+
+# A service representing a network-accessible HTTP API that greets users
+service /greeting on new http:Listener(8091) {
+
+    # A resource for generating greetings
+    #
+    # + name - the input string name
+    # + return - string name with greeting message or error
+    resource function get greet(string name) returns string|http:BadRequest {
+        if name == "" {
+            return {body: "name should not be empty!"};
+        }
+        return "Hello, " + name;
     }
 }

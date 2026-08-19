@@ -1,0 +1,53 @@
+{
+  "last_build_time": 1787111071456,
+  "last_update_time": 1787111071456,
+  "last_bal_toml_update_time": 1787111028749,
+  "distribution_version": "2201.13.5-20260805-221500-37884cac",
+  "last_modified_time": {
+    "graphql_service": 1787111028749
+  },
+  "last_build_options": {
+    "compilationOptions": {
+      "observabilityIncluded": true,
+      "dumpBir": false,
+      "cloud": "",
+      "dumpGraph": false,
+      "dumpRawGraphs": false
+    }
+  },
+  "src_meta_info": [
+    {
+      "file": "/tmp/chouser/project/main.bal",
+      "hash": "3e308eae330961469cc777f0f19ad42d13fd805c099d8404807d26d555f9c934",
+      "size": 944,
+      "lastModifiedTime": 1787111028749
+    },
+    {
+      "file": "/tmp/chouser/project/Ballerina.toml",
+      "hash": "f6b56c17f8ebc10d631c5af08a5dfc5922d53586c9fbd009b0f3d60e453d23bb",
+      "size": 179,
+      "lastModifiedTime": 1787111028749
+    }
+  ],
+  "target_exec_meta_info": {
+    "file": "/tmp/chouser/project/target/backup/bin/graphql_service.jar",
+    "hash": "aaf729b88ff29ecbe43e43cec16f47df7fd5e856df8fd80bc9dbc7cd984fab61",
+    "size": 52616677,
+    "lastModifiedTime": 1787111073325
+  },
+  "settings_meta_info": {
+    "file": "/tmp/chouser/.ballerina/Settings.toml",
+    "hash": "37e850bd43d13160f637cfc2afc2b06c6d2112560cde17b6325a05da18463084",
+    "size": 9065,
+    "lastModifiedTime": 1787111028773
+  },
+  "ballerina_toml_meta_info": {
+    "file": "/tmp/chouser/project/Ballerina.toml",
+    "hash": "f6b56c17f8ebc10d631c5af08a5dfc5922d53586c9fbd009b0f3d60e453d23bb",
+    "size": 179,
+    "lastModifiedTime": 1787111028749
+  },
+  "imports": [
+    "ballerina/graphql"
+  ]
+}
